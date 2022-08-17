@@ -1,16 +1,289 @@
 <html>
     <head>
-        <title>Petisco Agenda</title>
-        <meta charset="UTF-8"/>
+        <title>Petisco</title>
+        <meta  charset="utf-8"/>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0%;
+                box-sizing: border-box;
+                text-decoration: none;
+            }
+            body{
+                background-color: #E8E3D4;
+                font-family: Arial;
+            }
+            nav {
+                width: 150%;
+                height: 07%;
+                display: flex;
+                position: fixed;
+                background-color: #66DEC0;
+                z-index: 99;
+          
+            }
+
+            nav a {
+                color: rgb(0, 0, 0);
+                margin: auto 20px auto 40px;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+            nav li {
+                float: left;
+                list-style: none;
+                margin-left: 60px;
+                margin-top: 20px;
+            }
+            .Titulo{
+                margin-left: 0%;
+                text-align:justify;
+            }
+            h1
+            {
+                font-size: 25pt;
+                margin-top: auto;
+                margin-bottom: auto;
+            }
+            h2{
+                text-align: center;
+                font-size: 15pt;
+            }
+            .TabelaEquipe{
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 15pt;
+                text-align: center;
+            }
+            .Quemsomos{
+                text-align: justify;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+            a{
+                text-decoration: none;
+                text-align: center;
+                color: rgb(0, 0, 0);
+            }
+            .agoravai
+            {
+                text-align: center;
+            }
+            .Gatos{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 37%;
+            }
+            .Agenda{
+                border: 4px solid #cefbef;
+                border-radius: 4px;
+                margin-left: 30%;
+                margin-right: 30%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .Domingo{
+                background-color: #ff0000a5;
+            }
+            .Indisponivel{
+                background-color: #ff000070;
+            }
+            form{
+                text-align: center justify;
+                background-color: #e7d3b8;
+            }
+            input{
+                width: 20%;
+                
+            }
+            footer{
+                background-color: #cefbef;
+                height: 40px;
+                display:flex;
+                justify-content: center;
+                margin-top: 12%;
+
+            }
+            ul{
+                list-style: none;
+                float:left;
+                margin:0 5px;
+            }
+            .formulario{
+                border: 4px solid #cefbef;
+                border-radius: 4px;
+                margin-left: 25%;
+                margin-right: 25%;
+                width: 50%;
+            }
+            input[type=text]{
+                width: 35%;
+                padding: 5px;
+                border: 2px solid rgb(0, 0, 0);
+                border-radius: 4px;
+            }
+            input[type=submit]{
+                background-color: #66DEC0;
+                border: none ;
+                color: rgb(0, 0, 0);
+                padding: 8px 374px;
+                text-align: center;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+            .row {
+                margin-left: center;
+                margin-right: center;
+            }
+        </style>
     </head>
     <body>
-        <center>
-            <table border="1">
-                <th><a href=Petshop.html>Home</a></th>
-                    <th><a href=Loja.html>Loja</a></th>
-                    <th><a href=Agendamento.html>Agendamento</a></th>
-                    <th><a href=FaleConosco.html>FaleConosco</a></th>  
-            </table>
-            </center>
+        <nav>
+            <img src="Rosto.png" width="100"/>
+                <h1>Petisco</h1>
+            <ul>
+                <li><a href=Petshop.html>Home</a></li>
+                <li><a href=Loja.html>Loja</a></li>
+                <li><a href=Agendamento.html>Agenda</a></li>
+                <li><a href=Adote_Gatinhos.html>Adote</a></li>
+                <li><a href=FaleConosco.html>Fale Conosco</a></li>
+            </ul>
+        </nav>
+    <br>
+    <br>    
+    <br>
+    <br>
+    <br>    
+    <br>  
+     <table border="2" class="Agenda">
+        <thead>
+            <tr>
+                <th colspan="7">Calendário para agendamento</th>
+            </tr>
+            <tr>
+                <th colspan="7">Agosto</th>
+            </tr>
+        </thead>
+        <tr>
+            <th>Domingo</th>
+            <th>Segunda-feira</th>
+            <th>Terça-feira</th>
+            <th>Quarta-feira</th>
+            <th>Quinta-feira</th>
+            <th>Sexta-feira</th>
+            <th>Sábado</th>
+        </tr>
+        <tr>
+            <th class=Domingo>01</th>
+            <th class=Indisponivel>02</th>
+            <th class=Disponivel>03</th>
+            <th class=Disponivel>04</th>
+            <th class=Indisponivel>05</th>
+            <th class=Disponivel>06</th>
+            <th class=Disponivel>07</th>
+        </tr>
+        <tr>
+            <th class=Domingo>08</th>
+            <th class=Disponivel>09</th>
+            <th class=Indisponivel>10</th>
+            <th class=Disponivel>11</th>
+            <th class=Disponivel>12</th>
+            <th class=Indisponivel>13</th>
+            <th class=Disponivel>14</th>
+        </tr>
+        <tr>
+            <th class=Domingo>15</th>
+            <th class=Indisponivel>16</th>
+            <th class=Disponivel>17</th>
+            <th class=Disponivel>18</th>
+            <th class=Disponivel>19</th>
+            <th class=Indisponivel>20</th>
+            <th class=Disponivel>21</th>
+        </tr>
+        <tr>
+            <th class=Domingo>22</th>
+            <th class=Disponivel>23</th>
+            <th class=Indisponivel>24</th>
+            <th class=Disponivel>25</th>
+            <th class=Indisponivel>26</th>
+            <th class=Disponivel>27</th>
+            <th class=Disponivel>28</th>
+        </tr>
+        <tr>
+            <th class=Domingo>29</th>
+            <th class=Indisponivel>30</th>
+            <th class=Disponivel>31</th>
+            <th class=Disponivel>01</th>
+            <th class=Indisponivel>02</th>
+            <th class=Disponivel>03</th>
+            <th class=Disponivel>04</th>
+        </tr>
+     </table>
+    <br>
+    <div class="formulario">
+    <form>
+        <label for="Formulario">Preencha os dados para realizar o seu agendamento</label><br>
+        <label for="Nome completo"> Nome completo:</label><br>
+        <input type="text" id="Nome completo" name="Nome completo" placeholder="Insira seu nome completo"><br>
+        <label for="Endereço"> Endereço:</label><br>
+        <input type="text" id="Endereço" name="Endereço" placeholder="Insira seu endereço"><br>
+        <label for="Nome do Pet"> Nome do seu Pet:</label><br>
+        <input type="text" id="Nome do Pet" name="Nome do Pet" placeholder="Insira o Nome do seu Pet"><br>
+    </form>
+    <form>
+        <label for="Espécie">O que é o seu pet ?</label><br>
+        <label for="Cachorro">Cachorro</label>
+        <input type="radio" id="Cachorro" value="Cachorro">
+        <label for="Gato">Gato</label>
+        <input type="radio" id="Gato" value="Gato">
+        <label for="Outros">Outros</label>
+        <input type="radio" id="Outros" value="Outros">
+
+    </form>
+    <form>
+        <label for="Tamanho">Qual o porte do seu pet?</label><br>
+        <label for="Grande">Grande</label>
+        <input type="radio" id="Grande" value="Grande">
+        <label for="Médio">Médio</label>
+        <input type="radio" id="Médio" value="Médio">
+        <label for="Pequno">Pequeno</label>
+        <input type="radio" id="Pequeno" value="Pequeno">
+    </form>
+    <form>
+        <label for="dia" class="d">Selecione o dia de agendamento</label>
+        <select id="dia" name="dia">
+            <option>Selecione</option>
+            <option>03</option>
+            <option>04</option>
+            <option>06</option>
+            <option>07</option>
+            <option>09</option>
+            <option>11</option>
+            <option>12</option>
+            <option>14</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>21</option>
+            <option>23</option>
+            <option>25</option>
+            <option>27</option>
+            <option>28</option>
+            <option>31</option>
+        </select>
+    <div class="row">
+        <input type="submit" value="Enviar">
+    </div>
+    </form>
+        </div>
+
+    <footer>
+        <ul><li><a href=Petshop.html>Home</a></li></ul>
+        <ul><li><a href=Agendamento.html>Agenda</a></li></ul>
+        <ul><li><a href=FaleConosco.html>Fale Conosco</a></li></ul>
+        <br>
+  </footer>
     </body>
 </html>
