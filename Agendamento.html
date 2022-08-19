@@ -2,147 +2,12 @@
     <head>
         <title>Petisco</title>
         <meta  charset="utf-8"/>
-        <style>
-            *{
-                margin: 0px;
-                padding: 0%;
-                box-sizing: border-box;
-                text-decoration: none;
-            }
-            body{
-                background-color: #E8E3D4;
-                font-family: Arial;
-            }
-            nav {
-                width: 150%;
-                height: 07%;
-                display: flex;
-                position: fixed;
-                background-color: #66DEC0;
-                z-index: 99;
-          
-            }
-
-            nav a {
-                color: rgb(0, 0, 0);
-                margin: auto 20px auto 40px;
-                text-decoration: none;
-                font-weight: bold;
-            }
-
-            nav li {
-                float: left;
-                list-style: none;
-                margin-left: 60px;
-                margin-top: 20px;
-            }
-            .Titulo{
-                margin-left: 0%;
-                text-align:justify;
-            }
-            h1
-            {
-                font-size: 25pt;
-                margin-top: auto;
-                margin-bottom: auto;
-            }
-            h2{
-                text-align: center;
-                font-size: 15pt;
-            }
-            .TabelaEquipe{
-                margin-left: auto;
-                margin-right: auto;
-                font-size: 15pt;
-                text-align: center;
-            }
-            .Quemsomos{
-                text-align: justify;
-                margin-left: 10%;
-                margin-right: 10%;
-            }
-            a{
-                text-decoration: none;
-                text-align: center;
-                color: rgb(0, 0, 0);
-            }
-            .agoravai
-            {
-                text-align: center;
-            }
-            .Gatos{
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                width: 37%;
-            }
-            .Agenda{
-                border: 4px solid #cefbef;
-                border-radius: 4px;
-                margin-left: 30%;
-                margin-right: 30%;
-                margin-left: auto;
-                margin-right: auto;
-            }
-            .Domingo{
-                background-color: #ff0000a5;
-            }
-            .Indisponivel{
-                background-color: #ff000070;
-            }
-            form{
-                text-align: center justify;
-                background-color: #e7d3b8;
-            }
-            input{
-                width: 20%;
-                
-            }
-            footer{
-                background-color: #cefbef;
-                height: 40px;
-                display:flex;
-                justify-content: center;
-                margin-top: 12%;
-
-            }
-            ul{
-                list-style: none;
-                float:left;
-                margin:0 5px;
-            }
-            .formulario{
-                border: 4px solid #cefbef;
-                border-radius: 4px;
-                margin-left: 25%;
-                margin-right: 25%;
-                width: 50%;
-            }
-            input[type=text]{
-                width: 35%;
-                padding: 5px;
-                border: 2px solid rgb(0, 0, 0);
-                border-radius: 4px;
-            }
-            input[type=submit]{
-                background-color: #66DEC0;
-                border: none ;
-                color: rgb(0, 0, 0);
-                padding: 8px 374px;
-                text-align: center;
-                margin: 4px 2px;
-                cursor: pointer;
-            }
-            .row {
-                margin-left: center;
-                margin-right: center;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <nav>
             <img src="Rosto.png" width="100"/>
-                <h1>Petisco</h1>
+            <div class="Petisco"><a href=Petshop.html>Petisco</a></p></div>
             <ul>
                 <li><a href=Petshop.html>Home</a></li>
                 <li><a href=Loja.html>Loja</a></li>
@@ -240,7 +105,6 @@
         <input type="radio" id="Gato" value="Gato">
         <label for="Outros">Outros</label>
         <input type="radio" id="Outros" value="Outros">
-
     </form>
     <form>
         <label for="Tamanho">Qual o porte do seu pet?</label><br>
@@ -278,12 +142,10 @@
     </div>
     </form>
         </div>
-
     <footer>
         <ul><li><a href=Petshop.html>Home</a></li></ul>
         <ul><li><a href=Agendamento.html>Agenda</a></li></ul>
         <ul><li><a href=FaleConosco.html>Fale Conosco</a></li></ul>
-        <br>
-  </footer>
+    </footer>
     </body>
 </html>
