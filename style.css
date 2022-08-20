@@ -137,18 +137,19 @@ input[type=email]{
     border-radius: 4px;
 }
 #caixa{
-    width: 35px;
-    height: 100px;
+    width: 99%;
+    height: 10%;
     box-sizing: content-box;
 }
 input[type=submit]{
     background-color: #66DEC0;
     border: none ;
     color: rgb(0, 0, 0);
-    padding: 8px 160px;
+    padding: 8px;
     text-align: center;
     margin: 4px 2px;
     cursor: pointer;
+    width: 99%;
 }
 .adote{
     margin-left: auto;
@@ -164,4 +165,7 @@ input[type=submit]{
 }
 img{
     border-radius: 12px;
+}
+.local{
+    text-align: center;
 }
