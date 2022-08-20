@@ -106,19 +106,18 @@ footer{
     display:flex;
     justify-content: center;
     margin-top: 12%;
-
 }
 ul{
     list-style: none;
     float:left;
     margin:0 5px;
 }
-.formulario{
+.formulario {
     margin: auto;
     border: 4px solid #cefbef;
     border-radius: 4px;
-    width: 26.1%;
-    justify-content: center
+    width: 24.3%;
+    justify-content: center;
 }
 input[type=text]{
     padding: 5px;
@@ -137,26 +136,21 @@ input[type=email]{
     border: 2px solid rgb(0, 0, 0);
     border-radius: 4px;
 }
-#mensagem{
-    width: 60px;
-    height: 30px;
+#caixa{
+    width: 35px;
+    height: 100px;
     box-sizing: content-box;
 }
 input[type=submit]{
     background-color: #66DEC0;
     border: none ;
     color: rgb(0, 0, 0);
-    padding: 8px 173px;
+    padding: 8px 160px;
     text-align: center;
     margin: 4px 2px;
     cursor: pointer;
 }
-.row {
-    margin-left: center;
-    margin-right: center;
-}
 .adote{
-    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -165,6 +159,9 @@ input[type=submit]{
     margin: auto;
     border: 4px solid #cefbef;
     border-radius: 4px;
-    width: 26.1%;
-    justify-content: center
+    width: 24.1%;
+    justify-content: center;
+}
+img{
+    border-radius: 12px;
 }
